@@ -1,4 +1,10 @@
-$barvaTextu: black;
+$barvaTextu: white;
+$center: text-align center;
+
+* {
+background-color: black;
+color: $barvaTextu;
+}
 
 .container {
   position: absolute;
@@ -6,4 +12,5 @@ $barvaTextu: black;
   left: 50%;
   transform: translate(-50%, -50%);
   color: $barvaTextu;
+  align-items: center;
 }
